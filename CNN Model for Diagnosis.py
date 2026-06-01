@@ -48,7 +48,7 @@ model.fit(
     validation_steps=50
 )# defining model parameters here
 
-# Evaluate the model on the validation data
+# Evaluate the model on the validation data,,
 val_loss, val_acc = model.evaluate(val_generator)
 print('Validation accuracy:', val_acc)
 
